@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(13, 153, 232);
+}
+.hidden {
+  display: none;
+}
+
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#surveyForm {
+  margin-left: 400px;
+  width: 500px;
+  height: 500px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 1px 10px white;
+}
+
+/* CSS for form layout */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+#submitBtn {
+  position: absolute;
+  margin-left: 170px;
+  background-color: #007bff;
+
+  padding: 10px;
+}
+#resetBtn {
+  position: absolute;
+  margin-left: 250px;
+  padding: 10px;
+  background-color: #007bff;
+}
+.form-column {
+  flex: 1;
+  padding: 10px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-input {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
